@@ -83,8 +83,8 @@
     }
     .race{
         color: #1E2761;
-        margin: 0 50px 0 50px;
-        font-size: larger;
+        margin: 5% 40% -5% 10%;
+       
     }
     #raceCategories{
         display: grid;
