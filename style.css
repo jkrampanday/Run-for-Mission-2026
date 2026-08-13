@@ -325,15 +325,18 @@ span{
     padding: 50px;
 }
 .registerButton{
-    color: white;
     padding: 20px;
     text-align: center;
     border-radius: 40px;
     background-color:#002060;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 1);
 }
-.registerButton:hover{
-    color: rgb(249, 35, 35);
+.registerButton a{
+    text-decoration: none;
+    color: white
+}
+.registerButton a:hover{
+    color:#002060;
     padding: 20px;
     text-align: center;
     font-size: 1rem;
@@ -390,6 +393,7 @@ span{
     padding: 10px;
 }
 .registrationMechanism{
+    text-align: center;
     font-size: 200%;
     color: #002060;
     padding: 5%;
