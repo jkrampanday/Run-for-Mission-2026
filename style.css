@@ -1,0 +1,396 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(
+        45deg,
+        hsl(240deg 100% 20%) 0%,
+        hsl(194, 83%, 37%) 11%,
+        hsl(179, 82%, 47%) 22%,
+        hsl(147, 86%, 33%) 33%,
+        hsl(136, 79%, 50%) 44%,
+        hsl(115, 98%, 48%) 55%,
+        hsl(73, 92%, 46%) 66%,
+        hsl(33, 95%, 48%) 79%,
+        hsl(21, 91%, 49%) 89%,
+        hsl(0, 95%, 48%) 100%
+    );;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+.menuList{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px
+}
+.menuList li{
+    list-style: none;
+    margin-left: 20px;
+}
+.menuList a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: black;
+    text-decoration: none;
+}
+.menuList a:hover{
+    border-bottom: 3px solid #141B4D;
+}
+.burgerMenu{
+    display: none;
+    margin-top: -5px;
+    cursor: pointer;
+}
+.burgerMenu div{
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+}
+#border{
+    padding: 10px 10px 10px 0px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 1);
+}
+.homeContent{
+    margin: 2px 50px 0 50px;
+    padding: 50px;
+    background-color: #141B4D;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 1);
+}
+.content{
+    text-align: center;
+}
+ .content img{
+        width: 50%;
+        height: 40%;
+}
+h4{
+    font-size: 100%;
+    padding: 20px;
+    font-family: sans-serif;
+    color: yellow;
+}
+h5{
+     font-size: 100%;
+    color: white;
+}
+.objective{
+    margin: 2px 10px 0 10px;
+    padding: 50px 0 50px 70px;
+    background-color: #F7F7FA;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 1);
+}
+.oc{
+     font-size: 120%;
+    padding-bottom: 20px;
+    color: rgb(249, 10, 90);
+}
+h1{
+     font-size: 150%;
+    padding-bottom: 40px;
+}
+#aims{
+   display: grid;
+   grid-template-columns: 21% 21% 21% 21%;
+   grid-template-rows: auto;
+   gap: 40px;
+}
+.funds{ 
+    text-align: center;
+    padding:  50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 1);
+}
+.circle{
+    padding-bottom: 30px;
+}
+.fTitle{
+    padding-bottom: 30px;
+}
+.fTitle h3 {
+    font-size: 120%;
+}
+.goal{
+    font-size: 100%;
+    color: gray;
+}
+.community{
+    text-align: center;
+    padding:  50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 1);
+}
+.wellness{
+    text-align: center;
+    padding:  50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 1);
+}
+.visibility{
+    text-align: center;
+  padding: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 1);
+}
+.buttomContent{
+    margin: 2px 50px 0 50px;
+    padding: 20px;
+    background-color: #141B4D;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 1);
+}
+.mission{
+    font-size: 150%;
+    color: white;
+}
+#shirtContext{
+    padding: 3% 0 5% 10%;
+    margin: 2px 10px 0 10px;
+    background-color: #141B4D;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 1);
+}
+.logo1{
+    width: 80%;
+    height: 120%;
+}
+.finishShirt{
+    display: flex;
+    place-items: center;
+}
+.contactContent{
+    margin: 2px 10px 0 10px;
+   padding-top: 5%;
+   padding-bottom: 5%;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 1);
+    background-color:#1E2761 ;
+}
+.eShirt{
+  
+    color: #FFC72C;
+    padding-bottom: 30px;
+}
+.fDesign{
+
+    color: white;
+    padding-bottom: 50px;
+}
+#eventGlance{
+    padding:0 0 0 7%;
+    margin-bottom: 50px;
+}
+.dateTime{
+    color: #FFC72C;
+    font-size: clamp(2rem, 3vw + 0.5rem, 4rem); 
+}
+.officialDate{
+    text-align: center;
+    padding: 20px;
+    background-color: #141B4D;
+    border: solid 1px white ;
+    border-radius: 10px;
+}
+p{
+    color: white;
+}
+.officialTime{
+    text-align: center;
+    padding: 50px 0 0 0;
+    background-color: #141B4D;
+    border: solid 1px white ;
+    border-radius: 10px;
+}
+.fContext{
+    margin-top: -30px;
+    margin-bottom: 43px;
+}
+.startFinish{
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+    text-align: left;
+    padding: 20px;
+    background-color: #141B4D;
+    border: solid 1px white ;
+    border-radius: 10px;
+    margin: 0 50px 0 50px;
+}
+ .custom-home-icon {
+    width: 150px;
+    height: 150px;
+ }
+ #line{
+    padding: 20px;
+ }
+ .sfLine{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+ }
+ .gym{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: rgba(202, 202, 199, 0.705);
+    margin-bottom: 10px;
+ }
+ .route{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(202, 202, 199, 0.705);
+    font-size: 1rem;
+ }
+ .categories{
+    margin: 2% 5% 0 5%;
+    padding: 3% 0 0 2%;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 1);
+    background-color:#fcfcfc ;
+ }
+ .race{
+    color: #1E2761;
+     margin: 0 50px 0 50px;
+ }
+#raceCategories{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 50px 0 50px;
+    gap:40px;
+}
+table{
+    border: 1px solid #12B5A6;
+    background-color: #F7F7FA;
+    text-align: center;
+    place-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+.tr1 td{
+    font-size: 1.5rem;
+    color: white;
+    background-color: #12B5A6;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.tr2{
+    color: #1E2761;
+    font-size: 2rem;
+}
+tr td{
+    padding: 20px;
+}
+.tr4 td{
+    text-align: left;
+}
+.km{
+    text-align: center;
+    font-weight: bold;
+    color:#12B5A6;
+    background-color: white;
+    padding: 20px;
+    font-size: 1.5rem;
+    margin: 0 20px 0 20px;
+    border: 1px solid gray;
+}
+.km1{
+    text-align: center;
+    font-weight: bold;
+    color:#E91E7A;
+    background-color: white;
+    padding: 20px;
+    font-size: 1.5rem;
+    margin: 0 20px 0 20px;
+    border: 1px solid gray;
+}
+span{
+    font-weight: 10;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tr5 td{
+    background-color: #E91E7A;
+    font-size: 1.5rem;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#rButton{
+    text-align: center;
+    padding: 50px;
+}
+.registerButton{
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px;
+    background-color:#002060;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 1);
+}
+.registerButton:hover{
+    color: rgb(249, 35, 35);
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 40px;
+    background-color: white;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 1);
+}
+#rFees{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: auto;
+    place-items: center;
+    gap:30px;
+  
+}
+.category{
+    border: 1px solid #12B5A6;
+    background-color: #F7F7FA;
+    text-align: center;
+    place-items: center;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.category1{
+    background-color: #FFC72C;
+    text-align: center;
+    place-items: center;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.cTitle1{
+    color:#12B5A6;
+    padding: 10px;
+}
+.cTitle2{
+    color:#E91E7A;
+    padding: 10px;
+}
+.cTitle3{
+    color:#002060;
+    padding: 10px;
+}
+.prize{
+    font-size: 4rem;
+    color: #002060;
+}
+.rf{
+    color: gray;
+}
+.rf1{
+    color: #002060;
+    padding: 10px;
+}
+.registrationMechanism{
+    font-size: 200%;
+    color: #002060;
+    padding: 5%;
+}

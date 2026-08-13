@@ -1,0 +1,125 @@
+@media  (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+    .menuList{
+       position:absolute;
+       height: 50vh;
+       width: 50%;
+       background-color: white;
+       right: 0px;
+       flex-direction: column;
+       text-align: center;
+       top: 50px;
+       transform: translateX(100%);
+       transition: transform 0.5 ease-in;
+    }
+    .menuList li{
+        padding: 50px;
+    }
+    .burgerMenu{
+        display: block;
+        margin-top: 10px;
+    }
+    .objective{
+        background-color: #F7F7FA;
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 1);
+    }
+    .content img{
+        width: 70%;
+        height: 60%;
+    }
+     #aims{
+        display: grid;
+        grid-template-columns: 90% ;
+        grid-template-rows: auto;
+    }
+    #shirtContext{
+        padding: 5% 0 5% 10%;
+    }
+     .finishShirt{
+        display: grid;
+        grid-template-columns: 90% ;
+        grid-template-rows: auto;
+        place-items: center;
+    }
+    .logo1{
+        width: 100%;
+        height: 100%;
+    }
+    .eShirt{
+        color: #FFC72C;
+        padding-bottom: 10px;
+    }
+    .fDesign{
+        color: white;
+        padding-bottom: 20px;
+    }
+    .startFinish{
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+        padding: 20px;
+        background-color: #141B4D;
+        border: solid 1px white ;
+        border-radius: 10px;
+        margin: 0 50px 0 50px;
+    }
+    .sfLine{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    .gym{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        color: rgba(202, 202, 199, 0.705);
+        margin-bottom: 10px;
+    }
+    .route{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(202, 202, 199, 0.705);
+        font-size: 1rem;
+    }
+    .race{
+        color: #1E2761;
+        margin: 0 50px 0 50px;
+        font-size: larger;
+    }
+    #raceCategories{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 0 50px 0 50px;
+        gap:40px;
+    }
+    .fContext1{
+       padding-bottom: 30px;
+    }
+    #rFees{
+        display: grid;
+        grid-template-columns: 50% 50% ;
+        grid-template-rows: auto;
+        place-items: center;
+        padding: 0 50px 0 10px;
+    }
+    .tr4 td p{
+        text-align: center;
+        font-size: large;
+    }
+}
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes menuListFade {
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
