@@ -1,13 +1,13 @@
 
 *{
-    overflow-x: hidden;
+
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
 body{
-    overflow-x: hidden;
+    overflow: hidden auto;
     min-height: 100vh;
     background-image: linear-gradient(
         45deg,
