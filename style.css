@@ -21,7 +21,7 @@ body{
         hsl(33, 95%, 48%) 79%,
         hsl(21, 91%, 49%) 89%,
         hsl(0, 95%, 48%) 100%
-    );;
+    );
 }
 nav{
     display: flex;
@@ -75,19 +75,19 @@ nav{
         width: 50%;
         height: 40%;
 }
-h4{
-    font-size: 100%;
+.content h4{
+    font-size: 150%;
     padding: 20px;
     font-family: sans-serif;
     color: yellow;
 }
-h5{
-     font-size: 100%;
+.content h5{
+    font-size: 100%;
     color: white;
 }
 .objective{
     margin: 2px 10px 0 10px;
-    padding: 50px 0 50px 70px;
+    padding: 4%;
     background-color: #F7F7FA;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 1);
 }
@@ -102,9 +102,10 @@ h1{
 }
 #aims{
    display: grid;
-   grid-template-columns: 20% 20% 20% 20%;
+   grid-template-columns: 23% 23% 23% 23%;
    grid-template-rows: auto;
-   gap: 40px;
+   gap: 30px;
+   padding-bottom: 2%;
 }
 .funds{ 
     text-align: center;
@@ -253,8 +254,10 @@ p{
     background-color:#fcfcfc ;
  }
  .race{
+    padding-left: 6%;
+    overflow-x: hidden;
+    font-size: 150%;
     color: #1E2761;
-    margin: 0 10% 0 10%;
  }
 #raceCategories{
     display: grid;
@@ -267,7 +270,6 @@ table{
     border: 1px solid #12B5A6;
     background-color: #F7F7FA;
     text-align: center;
-    place-items: center;
     margin-bottom: 10%;
     padding-bottom: 10%px;
     border-radius: 10px;
@@ -281,7 +283,7 @@ table{
 }
 .tr2{
     color: #1E2761;
-    font-size: 150%;
+    font-size: 200%;
 }
 .tr3{
     font-size: 90%;

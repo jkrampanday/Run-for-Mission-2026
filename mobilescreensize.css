@@ -24,10 +24,21 @@
     .objective{
         background-color: #F7F7FA;
         box-shadow: 0px 6px 10px rgba(0, 0, 0, 1);
+        padding: 10% 0 10% 10%;
     }
     .content img{
         width: 70%;
         height: 60%;
+    }
+    .content h4{
+        font-size: 100%;
+        padding: 20px;
+        font-family: sans-serif;
+        color: yellow;
+    }
+    .content h5{
+        font-size: 80%;
+        color: white;
     }
      #aims{
         display: grid;
@@ -83,30 +94,25 @@
     }
     .race{
         color: #1E2761;
-        margin: 5% 40% -5% 10%;
-       
+        margin: 5% 0 0 5%;    
     }
     #raceCategories{
         display: grid;
         grid-template-columns: 100%;
-        padding: 20px;
         border-radius: 10px;
-        margin: 0 50px 0 50px;
-        gap:40px;
     }
     .fContext1{
        padding-bottom: 30px;
     }
     #rFees{
         display: grid;
-        grid-template-columns: 50% 50% ;
-        grid-template-rows: auto;
+        grid-template-columns: 100% ;
         place-items: center;
-        padding: 0 50px 0 10px;
+        margin: 10%;
     }
-    .tr4 td p{
+    .registrationMechanism{
         text-align: center;
-        font-size: large;
+        font-size: 80%;
     }
 }
 .nav-active{
