@@ -11,6 +11,12 @@
         grid-template-rows: auto;
         place-items: center;
     }
+    #shirtContext .eShirt{
+        font-size: 200%;
+    }
+    #shirtContext .fDesign{
+        font-size: 200%;
+    }
     .startFinish{
         display: grid;
         grid-template-columns: 100%;

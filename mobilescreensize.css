@@ -23,11 +23,22 @@
     }
     #aims{
         display: grid;
-        grid-template-columns: 90% ;
+        grid-template-columns: 90%;
         grid-template-rows: auto;
     }
     #shirtContext{
         padding: 5% 0 5% 10%;
+    }
+    #shirtContext .eShirt{
+        font-size: 150%;
+    }
+    #shirtContext .fDesign{
+        font-size: 150%;
+    }
+    .logo2{
+        padding-top:5%;
+        width: 70%;
+        height: 80%;
     }
      .finishShirt{
         display: grid;
