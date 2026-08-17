@@ -193,6 +193,26 @@ h1{
     display: flex;
     place-items: center;
 }
+.shirtLabel1{
+    color:black;
+    font-size: 250%;
+}
+#shirtSizes{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    background-color:#002060 ;
+}
+#shirtSizes div{
+    background-color:white ;
+    border: 1px solid black;
+    padding: 3%;
+}
+#shirtSizes p{
+    color:#002060;
+    font-size: 100%;
+}
 .contactContent{
     margin: 2px 10px 0 10px;
    padding-top: 5%;
